@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* This is where we configure our custom theme colors in v4 */
+@theme {
+  --color-cream: #f5f2eb;
+  --color-dark: #121212;
+  --color-muted: #737373;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+  font-family: system-ui, -apple-system, sans-serif;
+}
