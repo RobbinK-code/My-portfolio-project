@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # Allows React to fetch data from this API
 
-@app.route('/api/projects', list_methods=['GET'])
+@app.route('/api/projects', methods=['GET'])
 def get_projects():
     with open('data/projects.json', 'r') as f:
         data = json.load(f)
