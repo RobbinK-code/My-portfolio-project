@@ -11,9 +11,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur border-b border-dark/10">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-5">
-        {/* TODO: replace with your name/wordmark */}
+        {/* Wordmark */}
         <span className="text-xl tracking-widest font-semibold uppercase">
-          Your Name
+          Robbin Kimani
         </span>
         <ul className="flex gap-8 text-sm uppercase tracking-wide">
           {links.map((link) => (

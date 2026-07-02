@@ -1,0 +1,18 @@
+[
+  {
+    "repo": "react-based-personal-project-showcase",
+    "title": "Coffee R Us — Admin Portal",
+    "description": "A React admin portal for an e-commerce store: view inventory, search products, update pricing, and add new products. Built with custom hooks, client-side routing, and a full Vitest/React Testing Library test suite."
+  },
+  {
+    "repo": "Final-project",
+    "title": "Personal Finance Tracker",
+    "description": "A personal finance tool to track monthly income and expenses. Color-coded transactions, category badges, and a live dashboard showing balance, income, and expenses at a glance.",
+    "liveLink": "https://robbink-code.github.io/Final-project/"
+  },
+  {
+    "repo": "Summative-Lab-Python-Project-Management-CLI-Tool-",
+    "title": "Bakery Project Management CLI",
+    "description": "A Python command-line tool for managing users, projects, and tasks. Role-based auth with password hashing, OOP design, JSON persistence, and a full pytest suite."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "title": "Hey Everyone!",
+    "tags": ["intro", "personal"],
+    "date": "2026-07-01",
+    "excerpt": "Welcome to my blog! This is my first post, this is where I'll break down builds and share what I'm working on.",
+    "slug": "hey-everyone"
+  }
+]

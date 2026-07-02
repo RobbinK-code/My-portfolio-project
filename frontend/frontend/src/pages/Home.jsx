@@ -20,13 +20,12 @@ export default function Home() {
           Developer · Builder
         </p>
         <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-          {/* TODO: replace with your own headline */}
-          Your Name × Code
+          Robbin Kimani × Full-Stack
         </h1>
         <p className="text-muted text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-          {/* TODO: replace with your own mission statement */}
-          A short paragraph about what drives you as a developer — the same
-          role the "IAN × CREATIVE" statement plays in the reference site.
+          I build across the stack — React and JavaScript on the frontend,
+          Python underneath — and I'd rather ship something that works than
+          something that just compiles.
         </p>
         <div className="flex justify-center gap-4">
           <Link
@@ -68,10 +67,9 @@ export default function Home() {
           My Mission
         </p>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-          {/* TODO: replace with your own two-line mission statement */}
           Code is my medium.
           <br />
-          Impact is my output.
+          Shipping is my proof.
         </h2>
       </section>
     </div>

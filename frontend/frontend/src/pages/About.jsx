@@ -1,6 +1,6 @@
 const stack = [
-  { label: 'Frontend', value: 'React · Vite · Tailwind CSS' },
-  { label: 'Backend', value: 'Python · Flask · REST APIs' },
+  { label: 'Frontend', value: 'React · JavaScript · HTML/CSS · Tailwind' },
+  { label: 'Backend', value: 'Python · Flask (this site\'s own API)' },
   { label: 'Environment', value: 'Git · GitHub · Command-line first' },
 ]
 
@@ -9,17 +9,18 @@ export default function About() {
     <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10">
       <div className="rounded-2xl border border-dark/10 p-8">
         <p className="uppercase tracking-[0.3em] text-sm text-muted mb-2">About</p>
-        {/* TODO: replace with your name */}
-        <h1 className="text-4xl font-bold mb-6">Your Name</h1>
+        <h1 className="text-4xl font-bold mb-6">Robbin Kimani</h1>
         <p className="text-muted leading-relaxed mb-4">
-          {/* TODO: replace with your own bio, first paragraph */}
-          A short paragraph about how you got into development and what
-          you're focused on now.
+          I'm a developer based in Kenya, currently building practical
+          full-stack projects — from a React admin portal with a real test
+          suite to a Python CLI tool with role-based auth. I care more about
+          whether something actually works end-to-end than how many
+          frameworks it name-drops.
         </p>
         <p className="text-muted leading-relaxed">
-          {/* TODO: replace with your own bio, second paragraph */}
-          A second paragraph — what you believe good software should feel
-          like, or what you're building toward.
+          Right now I'm focused on tools with real-world relevance —
+          consumer protection and accessibility challenges in African
+          markets are what pull me in most.
         </p>
       </div>
 

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Jua Kali Konnect",
+    "description": "A marketplace connecting clients with skilled Kenyan artisans, featuring a simulated M-Pesa escrow system.",
+    "tags": ["React", "Flask", "Python", "Tailwind CSS"],
+    "liveLink": "https://example.com",
+    "repoLink": "https://github.com/yourusername/jua-kali"
+  },
+  {
+    "id": "2",
+    "title": "Project Management CLI",
+    "description": "A Python command-line tool for managing users, projects, and tasks with persistent JSON storage.",
+    "tags": ["Python", "JSON", "CLI"],
+    "liveLink": "",
+    "repoLink": "https://github.com/yourusername/pm-cli"
+  }
+]
