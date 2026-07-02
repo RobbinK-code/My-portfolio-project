@@ -1,0 +1,15 @@
+[
+  {
+    "repo": "Summative-Lab-Python-Project-Management-CLI-Tool-",
+    "title": "Project Management CLI",
+    "description": "A Python command-line tool for managing users, projects, and tasks with persistent JSON storage."
+  },
+  {
+    "repo": "Final-project",
+    "title": "Finance Tracker"
+  },
+  {
+    "repo": "react-based-personal-project-showcase",
+    "title": "React Project Showcase"
+  }
+]

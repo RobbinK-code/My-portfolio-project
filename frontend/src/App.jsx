@@ -1,7 +1,20 @@
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Blog from './pages/Blog'
+import About from './pages/About'
+
 function App() {
   return (
     <div className="min-h-screen">
-      <h1 className="text-4xl font-bold text-dark">Portfolio Loading...</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   )
 }
